@@ -24,7 +24,7 @@ Sigue estos pasos para clonar y ejecutar la aplicación en tu entorno local:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/rick-and-morty-info-app.git
+   git clone https://github.com/RaulEMiranda/Rick-Morty-Api.git
    ```
 # Rick-Morty-Api
 # Rick-Morty-Api
