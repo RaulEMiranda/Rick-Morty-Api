@@ -1,0 +1,36 @@
+.page-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+}
+
+ul {
+  padding: 0;
+}
+.nPage {
+  padding: 0;
+  border: thin solid rgb(122, 122, 122);
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  cursor: pointer;
+  color: black;
+}
+
+.nPage:hover {
+  filter: opacity(.9);
+}
+
+ol:active {
+  transform: translate(1px, 1px);
+}
+
+.is-disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+  filter: opacity(.6);
+}

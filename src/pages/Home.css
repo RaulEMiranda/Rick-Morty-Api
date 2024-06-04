@@ -1,0 +1,14 @@
+.title-home {
+  text-align: center;
+  font-size: 4rem;
+  margin: 0;
+  font-family: "Nosifer", sans-serif;
+}
+
+.img-primary {
+  width: 70%;
+  transform: translateX(2rem);
+  margin-bottom: 2rem;
+}
+
+

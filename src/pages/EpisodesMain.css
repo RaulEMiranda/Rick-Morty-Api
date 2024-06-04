@@ -1,0 +1,30 @@
+.episodes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 3rem;
+}
+
+.episode {
+  border: thin solid red;
+  padding: 8px 1rem;
+  height: 3rem;
+  border-radius: 10px;
+  transition: all .3s linear;
+  display: flex;
+  gap: 1rem;
+  color: bisque;
+}
+
+.episode a{
+  color: rgb(187, 183, 173);
+}
+
+.episode a:hover{
+ filter: opacity(.75);
+}
+
+.episode:hover {
+  transform: scale(1.05);
+  border: medium solid red;
+}
